@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nMyProfile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/myProfileBNB" />
+
+    <item
+        android:id="@+id/nMyRequests"
+        android:icon="@drawable/ic_request"
+        android:title="@string/myRequestsBNB" />
+
+    <item
+        android:id="@+id/nMyResponses"
+        android:icon="@drawable/ic_respond"
+        android:title="@string/myResponsesBNB" />
+    <!--<item-->
+        <!--android:id="@+id/nUnAcceptedRequests"-->
+        <!--android:icon="@drawable/ic_waiting"-->
+        <!--android:title="@string/nUnAcceptedRequests" />-->
+
+</menu>

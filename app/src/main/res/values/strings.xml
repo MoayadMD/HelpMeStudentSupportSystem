@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">HelpMe Students Support System</string>
+    <string name="myProfileBNB">My Profile</string>
+    <string name="myRequestsBNB">My Requests</string>
+    <string name="myResponsesBNB">My Responses</string>
+    <string name="email">com.tu.gp.helpme.AuthenticationManager.email</string>
+    <string name="password">com.tu.gp.helpme.AuthenticationManager.password</string>
+    <string name="proflieID">com.tu.gp.helpme.AuthenticationManager.profileID</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="promptetEmail">Email</string>
+    <string name="promptPassword">Password, Must contain at least 6 letters </string>
+    <string name="promptPasswordLogin">Password</string>
+    <string name="actionLoginShort">Login</string>
+    <string name="errorInvalidEmail">This email address is invalid</string>
+    <string name="errorInvalidPasswprd">This password is invalid</string>
+    <string name="errorIncorrectLogin">The login information are incorrect</string>
+    <string name="errorFieldRequired">This field is required</string>
+    <string name="permissionRationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="promptEmail">Email</string>
+    <string name="promptFullName">Full Name</string>
+    <string name="promptPhoneNumber">Phone Number (i.e +966501234567)</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="radioTeacher">I am a Teacher</string>
+    <string name="radioStudent">I am a Student</string>
+    <string name="actionSignUpShort">Create Profile</string>
+    <string name="createAccountTv">Don\'t have and account? Create One</string>
+    <string name="logInFragmentTag">Login Frament Tag</string>
+    <string name="btnSpecsPrombet">Select one or more specializations</string>
+    <string name="multiSelectionDialogTitle">Select one or more specializations you can help with</string>
+    <string name="promptPasswordConfermation">Re type the password</string>
+    <string name="tvNoRequests">There Are No Requests In Your Specialization</string>
+    <string name="tvNewRequest">New request</string>
+    <string name="rbTutoring">Tutoring</string>
+    <string name="rbInquires">Inquires</string>
+    <string name="rbCampusTour">Campus-Tour</string>
+    <string name="sSelectSpecForRequest">Select Specialization</string>
+    <string name="etRequestQuestion">Enter your quiestion…</string>
+    <string name="btnSubmitRequest">Submit</string>
+    <string name="tvNoResponses">There Are No Responses</string>
+    <string name="nUnAcceptedRequests">On-Hold Requests</string>
+    <string name="responsed_by">Responsed By</string>
+    <string name="responser_type">Responser Type:</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="responser_rating">Responser Rating:</string>
+    <string name="finish">Finish</string>
+    <string name="responsed_at">Responsed at:</string>
+    <string name="requested_at">Requested at</string>
+    <string name="spicilization">Specilization</string>
+    <string name="service_type">Service Type</string>
+    <string name="status">Status</string>
+    <string name="question">Question</string>
+    <string name="requested_by">Requested By</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_new_specializtion">Add New Specializtion</string>
+    <string name="specialization_name">Specialization name</string>
+    <string name="country_code">Country Code</string>
+    <string name="xxx">+xxx</string>
+    <string name="responses">Responded by:-</string>
+    <string name="responded_by">Responded by</string>
+    <string name="responder_rating">Responder Rating</string>
+    <string name="rate_the_responder">Rate the responder</string>
+    <string name="cancel_request">Cancel Request</string>
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".RequestManager.UnAcceptedRequestDetailsViewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ProgressBar
+        android:id="@+id/pBUnAcceptedRequestDetails"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/lLUnAcceptedRequestDetails"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/etRequester"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Requested By"
+                android:editable="false"
+                android:imeActionId="6"
+                android:imeActionLabel="@string/actionLoginShort"
+                android:imeOptions="actionUnspecified"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question"
+                android:layout_marginTop="10dp"
+                android:imeActionId="6"
+                android:imeActionLabel="@string/actionLoginShort"
+                android:imeOptions="actionUnspecified"
+                android:maxLines="1"
+                android:editable="false"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etServiceType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Service Type"
+                android:layout_marginTop="10dp"
+                android:imeActionId="6"
+                android:imeActionLabel="@string/actionLoginShort"
+                android:imeOptions="actionUnspecified"
+                android:maxLines="1"
+                android:editable="false"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Status"
+                android:imeActionId="6"
+                android:imeActionLabel="@string/actionLoginShort"
+                android:imeOptions="actionUnspecified"
+                android:maxLines="1"
+                android:editable="false"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etSpec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Spicilization"
+                android:imeActionId="6"
+                android:editable="false"
+                android:imeActionLabel="@string/actionLoginShort"
+                android:imeOptions="actionUnspecified"
+                android:layout_marginTop="10dp"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRespond"
+            android:text="Responed To This Request" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
